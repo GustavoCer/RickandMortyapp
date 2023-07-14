@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+:root {
+
+    --bg-card: #040404dc;
+    --color-green: rgb(78, 240, 78);
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Carter One', cursive;
+}
+body {
+    background-image: url("https://trumpwallpapers.com/wp-content/uploads/Rick-And-Morty-Wallpaper-13-2560-x-1440.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+h1 {
+    font-size:5rem ;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3,p,ul,hr {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.type {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+input,button {
+    font-family: inherit;
+    border: none;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+FormLocation {
+    display: flex;
+
+}
